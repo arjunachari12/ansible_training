@@ -19,4 +19,5 @@
   - name: copy index.html
     copy:
       src: web.html
+      data: senstive_data
       dest: /var/www/html/index.html
