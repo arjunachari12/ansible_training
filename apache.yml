@@ -1,0 +1,11 @@
+---
+- name: Apache server installed
+  hosts: node01
+  become: yes
+
+  tasks:
+
+  - name: latest apachae version installed
+    yum:
+      name: httpd
+      state: latest 
