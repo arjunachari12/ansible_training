@@ -2,4 +2,4 @@
 - hosts: localhost
   tasks:
   - name: install mysql
-    apt: name=mysql state=present update_cache=yes
+    apt: name=mysql-server state=present update_cache=yes
